@@ -1,10 +1,16 @@
-# Assignments Schedule
+# 📅 Global Assignment Calendar
 
-_Last updated: 2026-01-24_
-
-| parent                 | title         | assignment                                                      | description         | due_date   | days left | points |
-| ---------------------- | ------------- | --------------------------------------------------------------- | ------------------- | ---------- | --------- | ------ |
-| 00-Onboarding_Workflow | Assignment 00 | [Assignment 00](00-Onboarding_Workflow/Assignment_00/README.md) | Setup Git and Slack | 2026-01-28 | 3         | 100    |
-| 00-Onboarding_Workflow | Assignment 01 | [Assignment 01](00-Onboarding_Workflow/Assignment_01/README.md) | Hello Workflow      | 2026-01-28 | 3         | 100    |
-
-<sup>Last Updated:Saturday @ 21:37 2026-01-24 </sup>
+| Status | Course                 | Assignment                              | Due Date         | Points | Folder                                                                                                        |
+| ------ | ---------------------- | --------------------------------------- | ---------------- | ------ | ------------------------------------------------------------------------------------------------------------- |
+| 🟢     | 4543-5993-Spatial-Data | 01-Working_with_Data_Basic              | 2026-02-15 23:59 | 0      | [Assignments/Part_01/01-Worki...](/Assignments/Part_01/01-Working_with_Data_Basic/notebooks/README.md)        |
+| 🟢     | 4543-5993-Spatial-Data | 01-Working_with_Data_Basic Quiz         | 2026-02-15 23:59 | 0      | [Assignments/Part_01/01-Worki...](/Assignments/Part_01/01-Working_with_Data_Basic/README.md)                  |
+| 🟢     | 4543-5993-Spatial-Data | 02-Scalar_Types_and_Control_Flow        | 2026-02-15 23:59 | 0      | [Assignments/Part_01/02-Scala...](/Assignments/Part_01/02-Scalar_Types_and_Control_Flow/notebooks/README.md)  |
+| 🟢     | 4543-5993-Spatial-Data | 02-Scalar_Types_and_Control_Flow Quiz   | 2026-02-15 23:59 | 0      | [Assignments/Part_01/02-Scala...](Assignments/Part_01/02-Scalar_Types_and_Control_Flow/README.md)             |
+| 🟢     | 4543-5993-Spatial-Data | 03-Loops_and_Iteration                  | 2026-02-15 23:59 | 0      | [Assignments/Part_01/03-Loops...](Assignments/Part_01/03-Loops_and_Iteration/notebooks/README.md)             |
+| 🟢     | 4543-5993-Spatial-Data | 03-Loops_and_Iteration Quiz             | 2026-02-15 23:59 | 0      | [Assignments/Part_01/03-Loops...](Assignments/Part_01/03-Loops_and_Iteration/README.md)                       |
+| 🟢     | 4543-5993-Spatial-Data | 04-Foundations                          | 2026-02-22 23:59 | 0      | [Assignments/Part_01/04-Found...](Assignments/Part_01/04-Foundations/notebooks/README.md)                     |
+| 🟢     | 4543-5993-Spatial-Data | 04-Foundations Quiz                     | 2026-02-22 23:59 | 0      | [Assignments/Part_01/04-Found...](Assignments/Part_01/04-Foundations/README.md)                               |
+| 🟢     | 4543-5993-Spatial-Data | 05-Working_with_Data_Adv                | 2026-02-22 23:59 | 0      | [Assignments/Part_01/05-Worki...](Assignments/Part_01/05-Working_with_Data_Adv/notebooks/README.md)           |
+| 🟢     | 4543-5993-Spatial-Data | 05-Working_with_Data_Adv Quiz           | 2026-02-22 23:59 | 0      | [Assignments/Part_01/05-Worki...](Assignments/Part_01/05-Working_with_Data_Adv/README.md)                     |
+| 🟢     | 4543-5993-Spatial-Data | 06-Describing_and_Visualizing_Data      | 2026-02-22 23:59 | 0      | [Assignments/Part_01/06-Descr...](Assignments/Part_01/06-Describing_and_Visualizing_Data/notebooks/README.md) |
+| 🟢     | 4543-5993-Spatial-Data | 06-Describing_and_Visualizing_Data Quiz | 2026-02-22 23:59 | 0      | [Assignments/Part_01/06-Descr...](Assignments/Part_01/06-Describing_and_Visualizing_Data/README.md)           |
