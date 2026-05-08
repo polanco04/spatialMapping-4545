@@ -171,48 +171,48 @@ completed_assignments/
 │       │   ├── ✅ 05-CRS_Limitations.ipynb
 │       │   └── ✅ 06-Applications_Impact_Zones.ipynb
 │       ├── 11-Point_In_Polygon/
-│       │   ├── ❌ 00_Click_Capture.ipynb
-│       │   ├── ❌ 01_Point_Representation.ipynb
-│       │   ├── ❌ 02_Point_In_Polygon_Basics.ipynb
-│       │   ├── ❌ 03_Ray_Casting_Algorithm.ipynb
-│       │   ├── ❌ 04_Testing_Against_Multiple_Features.ipynb
-│       │   ├── ❌ 05_Region_Classification.ipynb
-│       │   └── ❌ 06_Interactive_Click_Applications.ipynb
+│       │   ├── ✅ 00_Click_Capture.ipynb
+│       │   ├── ✅ 01_Point_Representation.ipynb
+│       │   ├── ✅ 02_Point_In_Polygon_Basics.ipynb
+│       │   ├── ✅ 03_Ray_Casting_Algorithm.ipynb
+│       │   ├── ✅ 04_Testing_Against_Multiple_Features.ipynb
+│       │   ├── ✅ 05_Region_Classification.ipynb
+│       │   └── ✅ 06_Interactive_Click_Applications.ipynb
 │       ├── 12-Refactoring/
-│       │   └── ❌ 01-From-Notebook-to-Module.ipynb
+│       │   └── ✅ 01-From-Notebook-to-Module.ipynb
 │       └── 13-WDO_Library/
 │           └── ❌ 01-Installing-and-Using-WDO.ipynb
 └── 03-Data_Manager/
     └── _micro_lessons/
         ├── 00-Data_Exploration/
-        │   ├── ❌ 00-Loading_and_Inspecting.ipynb
-        │   └── ❌ 01-Measuring_the_Problem.ipynb
+        │   ├── ✅ 00-Loading_and_Inspecting.ipynb
+        │   └── ✅ 01-Measuring_the_Problem.ipynb
         ├── 01-Douglas_Peucker/
-        │   ├── ❌ 00-The_Algorithm.ipynb
-        │   ├── ❌ 01-Implementation.ipynb
-        │   └── ❌ 02-Epsilon_and_Tradeoffs.ipynb
+        │   ├── ✅ 00-The_Algorithm.ipynb
+        │   ├── ✅ 01-Implementation.ipynb
+        │   └── ✅ 02-Epsilon_and_Tradeoffs.ipynb
         ├── 02-LOD_Generation/
-        │   ├── ❌ 00-Designing_the_Pipeline.ipynb
-        │   ├── ❌ 01-Writing_the_LOD_Files.ipynb
-        │   └── ❌ 02-Comparing_the_Levels.ipynb
+        │   ├── ✅ 00-Designing_the_Pipeline.ipynb
+        │   ├── ✅ 01-Writing_the_LOD_Files.ipynb
+        │   └── ✅ 02-Comparing_the_Levels.ipynb
         ├── 03-Bounding_Box_Culling/
-        │   ├── ❌ 00-Bounding_Boxes.ipynb
-        │   ├── ❌ 01-Intersection_Test.ipynb
-        │   └── ❌ 02-Viewport_Culling.ipynb
+        │   ├── ✅ 00-Bounding_Boxes.ipynb
+        │   ├── ✅ 01-Intersection_Test.ipynb
+        │   └── ✅ 02-Viewport_Culling.ipynb
         ├── 04-Spatial_Grid_Index/
-        │   ├── ❌ 00-The_Grid_Idea.ipynb
-        │   ├── ❌ 01-Building_the_Index.ipynb
-        │   └── ❌ 02-Querying_and_Benchmarking.ipynb
+        │   ├── ✅ 00-The_Grid_Idea.ipynb
+        │   ├── ✅ 01-Building_the_Index.ipynb
+        │   └── ✅ 02-Querying_and_Benchmarking.ipynb
         ├── 05-Zoom_Layer_Switching/
-        │   ├── ❌ 00-The_Decision_Function.ipynb
-        │   └── ❌ 01-Live_Layer_Switching.ipynb
+        │   ├── ✅ 00-The_Decision_Function.ipynb
+        │   └── ✅ 01-Live_Layer_Switching.ipynb
         ├── 06-Putting_It_Together/
-        │   ├── ❌ 00-The_Viewer.ipynb
-        │   └── ❌ 01-What_We_Built.ipynb
+        │   ├── ✅ 00-The_Viewer.ipynb
+        │   └── ✅ 01-What_We_Built.ipynb
         └── 07-The_Library_Version/
-            ├── ❌ 00-What_Are_Vector_Tiles.ipynb
-            ├── ❌ 01-Using_Tippecanoe.ipynb
-            └── ❌ 02-The_Comparison.ipynb
+            ├── ✅ 00-What_Are_Vector_Tiles.ipynb
+            ├── ✅ 01-Using_Tippecanoe.ipynb
+            └── ✅ 02-The_Comparison.ipynb
 
 ============================================================
   YOUR completed_assignments/ TREE
@@ -296,90 +296,145 @@ completed_assignments/
 │   └── _micro_lessons
 │       ├── 00-Working_Directory.ipynb
 │       └── 01-Data_Elsewhere.ipynb
-└── 02-Missile_Geometry_202
+├── 02-Missile_Geometry_202
+│   └── _micro_lessons
+│       ├── 00-Paths
+│       │   ├── 00-Working_Directory.ipynb
+│       │   ├── 01-Relative_vs_Absolute.ipynb
+│       │   ├── 02-Data_Elsewhere.ipynb
+│       │   └── 03-Find_Project_Root.ipynb
+│       ├── 01-JSON_GeoJSON
+│       │   ├── 00-Reading_JSON.ipynb
+│       │   ├── 01-GeoJSON_Structure.ipynb
+│       │   └── 02-Feature_Collections.ipynb
+│       ├── 02-Viewing_GeoJSON
+│       │   ├── data
+│       │   │   ├── meteorites.geojson
+│       │   │   └── wichita_falls.geojson
+│       │   ├── 00-Geojson.io.ipynb
+│       │   ├── 01-iPyLeaflet_Intro.ipynb
+│       │   ├── 02-Add_GeoJSON.ipynb
+│       │   └── 03-Map_Control.ipynb
+│       ├── 03-Attributes_Styling_Filtering
+│       │   ├── 00-Properties.ipynb
+│       │   ├── 01-Style_Functions.ipynb
+│       │   ├── 02-Filtering.ipynb
+│       │   └── README.md
+│       ├── 04-Interactive_Maps
+│       │   ├── 00-Map_Events.ipynb
+│       │   ├── 01-Click_Interactions.ipynb
+│       │   ├── 02-Dynamic_Layers.ipynb
+│       │   ├── 03-User_Feedback.ipynb
+│       │   ├── clicked_points.geojson
+│       │   ├── my_points.geojson
+│       │   └── README.md
+│       ├── 05-Coordinate_Geometry
+│       │   ├── 00-Coordinate_Ranges.ipynb
+│       │   ├── 01-Compute_BBox.ipynb
+│       │   ├── 02-Draw_BBox.ipynb
+│       │   ├── 03-Why_LatLon_Is_Weird.ipynb
+│       │   └── README.md
+│       ├── 06-Distance
+│       │   ├── 00-Euclidean_Distance.ipynb
+│       │   ├── 01-Haversine_Distance.ipynb
+│       │   ├── 02-Compare_Methods.ipynb
+│       │   ├── 03-Distance_Applications.ipynb
+│       │   ├── 04-Performance_Batching.ipynb
+│       │   └── README.md
+│       ├── 07-Bearing
+│       │   ├── data
+│       │   │   └── bearing_examples.json
+│       │   ├── 00-What_Is_Bearing.ipynb
+│       │   ├── 01-Compute_Bearing.ipynb
+│       │   ├── 02-Bearing_V_Direction.ipynb
+│       │   ├── 03-Bearing_Applications.ipynb
+│       │   ├── 04-Advanced_Bearing.ipynb
+│       │   └── README.md
+│       ├── 08-Intercept_Pursuit_Module_Design
+│       │   ├── 00-Problem_Setup.ipynb
+│       │   ├── 01-Constant_Velocity_Intercept.ipynb
+│       │   ├── 02-Iterative_Pursuit.ipynb
+│       │   ├── 03-Visual_Simulation.ipynb
+│       │   ├── 04-Strategy_and_Limits.ipynb
+│       │   ├── 05-Advanced_Topics.ipynb
+│       │   └── README.md
+│       ├── 09-Intersections
+│       │   ├── data
+│       │   │   ├── countries.geojson
+│       │   │   ├── med_arc.geojson
+│       │   │   └── paths.geojson
+│       │   ├── 00-Lines_as_Paths.ipynb
+│       │   ├── 01-Line_Segment_Intersection.ipynb
+│       │   ├── 02-Line_vs_Polygon_Basics.ipynb
+│       │   ├── 03-Detecting_Intersections.ipynb
+│       │   ├── 04-Highlighting_Intersected_Features.ipynb
+│       │   ├── 05-Applications_Missile_Paths.ipynb
+│       │   └── README.md
+│       ├── 10-Buffers
+│       │   ├── data
+│       │   │   └── targets.geojson
+│       │   ├── 00_Buffer_Concepts.ipynb
+│       │   ├── 01_Buffering_Points.ipynb
+│       │   ├── 02-Buffering_Lines.ipynb
+│       │   ├── 03-Comparing_Buffer_Sizes.ipynb
+│       │   ├── 04-Buffer_Visualization_Strategies.ipynb
+│       │   ├── 05-CRS_Limitations.ipynb
+│       │   ├── 06-Applications_Impact_Zones.ipynb
+│       │   └── README.md
+│       ├── 11-Point_In_Polygon
+│       │   ├── data
+│       │   │   ├── clicked_points.geojson
+│       │   │   └── regions.geojson
+│       │   ├── 00_Click_Capture.ipynb
+│       │   ├── 01_Point_Representation.ipynb
+│       │   ├── 02_Point_In_Polygon_Basics.ipynb
+│       │   ├── 03_Ray_Casting_Algorithm.ipynb
+│       │   ├── 04_Testing_Against_Multiple_Features.ipynb
+│       │   ├── 05_Region_Classification.ipynb
+│       │   ├── 06_Interactive_Click_Applications.ipynb
+│       │   └── README.md
+│       └── 12-Refactoring
+│           ├── 01-From-Notebook-to-Module.ipynb
+│           ├── geo.py
+│           └── README.md
+└── 03-Data_Manager
     └── _micro_lessons
-        ├── 00-Paths
-        │   ├── 00-Working_Directory.ipynb
-        │   ├── 01-Relative_vs_Absolute.ipynb
-        │   ├── 02-Data_Elsewhere.ipynb
-        │   └── 03-Find_Project_Root.ipynb
-        ├── 01-JSON_GeoJSON
-        │   ├── 00-Reading_JSON.ipynb
-        │   ├── 01-GeoJSON_Structure.ipynb
-        │   └── 02-Feature_Collections.ipynb
-        ├── 02-Viewing_GeoJSON
-        │   ├── data
-        │   │   ├── meteorites.geojson
-        │   │   └── wichita_falls.geojson
-        │   ├── 00-Geojson.io.ipynb
-        │   ├── 01-iPyLeaflet_Intro.ipynb
-        │   ├── 02-Add_GeoJSON.ipynb
-        │   └── 03-Map_Control.ipynb
-        ├── 03-Attributes_Styling_Filtering
-        │   ├── 00-Properties.ipynb
-        │   ├── 01-Style_Functions.ipynb
-        │   ├── 02-Filtering.ipynb
+        ├── 00-Data_Exploration
+        │   ├── 00-Loading_and_Inspecting.ipynb
+        │   ├── 01-Measuring_the_Problem.ipynb
         │   └── README.md
-        ├── 04-Interactive_Maps
-        │   ├── 00-Map_Events.ipynb
-        │   ├── 01-Click_Interactions.ipynb
-        │   ├── 02-Dynamic_Layers.ipynb
-        │   ├── 03-User_Feedback.ipynb
-        │   ├── clicked_points.geojson
-        │   ├── my_points.geojson
+        ├── 01-Douglas_Peucker
+        │   ├── 00-The_Algorithm.ipynb
+        │   ├── 01-Implementation.ipynb
+        │   ├── 02-Epsilon_and_Tradeoffs.ipynb
         │   └── README.md
-        ├── 05-Coordinate_Geometry
-        │   ├── 00-Coordinate_Ranges.ipynb
-        │   ├── 01-Compute_BBox.ipynb
-        │   ├── 02-Draw_BBox.ipynb
-        │   ├── 03-Why_LatLon_Is_Weird.ipynb
+        ├── 02-LOD_Generation
+        │   ├── 00-Designing_the_Pipeline.ipynb
+        │   ├── 01-Writing_the_LOD_Files.ipynb
+        │   ├── 02-Comparing_the_Levels.ipynb
         │   └── README.md
-        ├── 06-Distance
-        │   ├── 00-Euclidean_Distance.ipynb
-        │   ├── 01-Haversine_Distance.ipynb
-        │   ├── 02-Compare_Methods.ipynb
-        │   ├── 03-Distance_Applications.ipynb
-        │   ├── 04-Performance_Batching.ipynb
+        ├── 03-Bounding_Box_Culling
+        │   ├── 00-Bounding_Boxes.ipynb
+        │   ├── 01-Intersection_Test.ipynb
+        │   ├── 02-Viewport_Culling.ipynb
         │   └── README.md
-        ├── 07-Bearing
-        │   ├── data
-        │   │   └── bearing_examples.json
-        │   ├── 00-What_Is_Bearing.ipynb
-        │   ├── 01-Compute_Bearing.ipynb
-        │   ├── 02-Bearing_V_Direction.ipynb
-        │   ├── 03-Bearing_Applications.ipynb
-        │   ├── 04-Advanced_Bearing.ipynb
+        ├── 04-Spatial_Grid_Index
+        │   ├── 00-The_Grid_Idea.ipynb
+        │   ├── 01-Building_the_Index.ipynb
+        │   ├── 02-Querying_and_Benchmarking.ipynb
         │   └── README.md
-        ├── 08-Intercept_Pursuit_Module_Design
-        │   ├── 00-Problem_Setup.ipynb
-        │   ├── 01-Constant_Velocity_Intercept.ipynb
-        │   ├── 02-Iterative_Pursuit.ipynb
-        │   ├── 03-Visual_Simulation.ipynb
-        │   ├── 04-Strategy_and_Limits.ipynb
-        │   ├── 05-Advanced_Topics.ipynb
+        ├── 05-Zoom_Layer_Switching
+        │   ├── 00-The_Decision_Function.ipynb
+        │   ├── 01-Live_Layer_Switching.ipynb
         │   └── README.md
-        ├── 09-Intersections
-        │   ├── data
-        │   │   ├── countries.geojson
-        │   │   ├── med_arc.geojson
-        │   │   └── paths.geojson
-        │   ├── 00-Lines_as_Paths.ipynb
-        │   ├── 01-Line_Segment_Intersection.ipynb
-        │   ├── 02-Line_vs_Polygon_Basics.ipynb
-        │   ├── 03-Detecting_Intersections.ipynb
-        │   ├── 04-Highlighting_Intersected_Features.ipynb
-        │   ├── 05-Applications_Missile_Paths.ipynb
+        ├── 06-Putting_It_Together
+        │   ├── 00-The_Viewer.ipynb
+        │   ├── 01-What_We_Built.ipynb
         │   └── README.md
-        └── 10-Buffers
-            ├── data
-            │   └── targets.geojson
-            ├── 00_Buffer_Concepts.ipynb
-            ├── 01_Buffering_Points.ipynb
-            ├── 02-Buffering_Lines.ipynb
-            ├── 03-Comparing_Buffer_Sizes.ipynb
-            ├── 04-Buffer_Visualization_Strategies.ipynb
-            ├── 05-CRS_Limitations.ipynb
-            ├── 06-Applications_Impact_Zones.ipynb
+        └── 07-The_Library_Version
+            ├── 00-What_Are_Vector_Tiles.ipynb
+            ├── 01-Using_Tippecanoe.ipynb
+            ├── 02-The_Comparison.ipynb
             └── README.md
 
 ============================================================
@@ -395,14 +450,14 @@ completed_assignments/
     Goal: complete all 11 + include your working project
 
   02-Missile_Geometry_202
-    51/60  [███████████████████████████████████████████████████░░░░░░░░░]
+    59/60  [███████████████████████████████████████████████████████████░]
     Goal: complete all 60 notebooks
 
   03-Data_Manager
-    0/21  [░░░░░░░░░░░░░░░░░░░░░]
+    21/21  [█████████████████████]
     Goal: complete all 21 notebooks
 
-  Total: 80/130 notebooks found
+  Total: 109/130 notebooks found
 
 
 ============================================================
