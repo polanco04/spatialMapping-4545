@@ -156,20 +156,20 @@ completed_assignments/
 │       │   ├── ✅ 04-Strategy_and_Limits.ipynb
 │       │   └── ✅ 05-Advanced_Topics.ipynb
 │       ├── 09-Intersections/
-│       │   ├── ❌ 00-Lines_as_Paths.ipynb
-│       │   ├── ❌ 01-Line_Segment_Intersection.ipynb
-│       │   ├── ❌ 02-Line_vs_Polygon_Basics.ipynb
-│       │   ├── ❌ 03-Detecting_Intersections.ipynb
-│       │   ├── ❌ 04-Highlighting_Intersected_Features.ipynb
-│       │   └── ❌ 05-Applications_Missile_Paths.ipynb
+│       │   ├── ✅ 00-Lines_as_Paths.ipynb
+│       │   ├── ✅ 01-Line_Segment_Intersection.ipynb
+│       │   ├── ✅ 02-Line_vs_Polygon_Basics.ipynb
+│       │   ├── ✅ 03-Detecting_Intersections.ipynb
+│       │   ├── ✅ 04-Highlighting_Intersected_Features.ipynb
+│       │   └── ✅ 05-Applications_Missile_Paths.ipynb
 │       ├── 10-Buffers/
-│       │   ├── ❌ 00_Buffer_Concepts.ipynb
-│       │   ├── ❌ 01_Buffering_Points.ipynb
-│       │   ├── ❌ 02-Buffering_Lines.ipynb
-│       │   ├── ❌ 03-Comparing_Buffer_Sizes.ipynb
-│       │   ├── ❌ 04-Buffer_Visualization_Strategies.ipynb
-│       │   ├── ❌ 05-CRS_Limitations.ipynb
-│       │   └── ❌ 06-Applications_Impact_Zones.ipynb
+│       │   ├── ✅ 00_Buffer_Concepts.ipynb
+│       │   ├── ✅ 01_Buffering_Points.ipynb
+│       │   ├── ✅ 02-Buffering_Lines.ipynb
+│       │   ├── ✅ 03-Comparing_Buffer_Sizes.ipynb
+│       │   ├── ✅ 04-Buffer_Visualization_Strategies.ipynb
+│       │   ├── ✅ 05-CRS_Limitations.ipynb
+│       │   └── ✅ 06-Applications_Impact_Zones.ipynb
 │       ├── 11-Point_In_Polygon/
 │       │   ├── ❌ 00_Click_Capture.ipynb
 │       │   ├── ❌ 01_Point_Representation.ipynb
@@ -350,13 +350,36 @@ completed_assignments/
         │   ├── 03-Bearing_Applications.ipynb
         │   ├── 04-Advanced_Bearing.ipynb
         │   └── README.md
-        └── 08-Intercept_Pursuit_Module_Design
-            ├── 00-Problem_Setup.ipynb
-            ├── 01-Constant_Velocity_Intercept.ipynb
-            ├── 02-Iterative_Pursuit.ipynb
-            ├── 03-Visual_Simulation.ipynb
-            ├── 04-Strategy_and_Limits.ipynb
-            ├── 05-Advanced_Topics.ipynb
+        ├── 08-Intercept_Pursuit_Module_Design
+        │   ├── 00-Problem_Setup.ipynb
+        │   ├── 01-Constant_Velocity_Intercept.ipynb
+        │   ├── 02-Iterative_Pursuit.ipynb
+        │   ├── 03-Visual_Simulation.ipynb
+        │   ├── 04-Strategy_and_Limits.ipynb
+        │   ├── 05-Advanced_Topics.ipynb
+        │   └── README.md
+        ├── 09-Intersections
+        │   ├── data
+        │   │   ├── countries.geojson
+        │   │   ├── med_arc.geojson
+        │   │   └── paths.geojson
+        │   ├── 00-Lines_as_Paths.ipynb
+        │   ├── 01-Line_Segment_Intersection.ipynb
+        │   ├── 02-Line_vs_Polygon_Basics.ipynb
+        │   ├── 03-Detecting_Intersections.ipynb
+        │   ├── 04-Highlighting_Intersected_Features.ipynb
+        │   ├── 05-Applications_Missile_Paths.ipynb
+        │   └── README.md
+        └── 10-Buffers
+            ├── data
+            │   └── targets.geojson
+            ├── 00_Buffer_Concepts.ipynb
+            ├── 01_Buffering_Points.ipynb
+            ├── 02-Buffering_Lines.ipynb
+            ├── 03-Comparing_Buffer_Sizes.ipynb
+            ├── 04-Buffer_Visualization_Strategies.ipynb
+            ├── 05-CRS_Limitations.ipynb
+            ├── 06-Applications_Impact_Zones.ipynb
             └── README.md
 
 ============================================================
@@ -372,14 +395,14 @@ completed_assignments/
     Goal: complete all 11 + include your working project
 
   02-Missile_Geometry_202
-    38/60  [██████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░]
+    51/60  [███████████████████████████████████████████████████░░░░░░░░░]
     Goal: complete all 60 notebooks
 
   03-Data_Manager
     0/21  [░░░░░░░░░░░░░░░░░░░░░]
     Goal: complete all 21 notebooks
 
-  Total: 67/130 notebooks found
+  Total: 80/130 notebooks found
 
 
 ============================================================
